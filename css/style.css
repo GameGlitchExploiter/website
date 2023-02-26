@@ -1,0 +1,238 @@
+* {
+    background-color: #2C2F33;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.navbar-name {
+    text-align: center;
+    padding-top: 16px;
+    color: white;
+}
+
+.navbar-social {
+    text-align: right;
+    color: white;
+    padding-right: 36px;
+}
+
+.navbar-social i {
+    color: white;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+/* HOME */
+
+.home {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.home h1 {
+    color: white;
+    padding-bottom: 16px;
+    font-weight: 600;
+    margin-top: 96px;
+}
+
+.home h2 {
+    color: darkgray;
+    font-weight: 400;
+}
+
+.home i {
+    color: darkgray;
+    height: 32px;
+    width: 32px;
+    padding-top: 32px;
+}
+
+/* ABOUT */
+
+.about {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.about-info h1 {
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.about-info img {
+    height: 256px;
+    width: 256px;
+    padding-bottom: 8px;
+}
+
+.about-text {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text p {
+    padding: 0;
+    margin: 0;
+    color: darkgray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/* OVERVIEW */
+
+.main-overview-header {
+    color: white;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.main-grid {
+    padding-bottom: 128px;
+}
+
+.main-overview-games {
+    height: 512px;
+    width: 100%;
+    background-image: url(../img/games.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-overview-games h1 {
+    padding-top: 196px;
+    color: white;
+    text-shadow: 2px 2px 2px darkgray;
+    background-color: transparent;
+}
+
+.main-overview-games p {
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+    background-color: transparent;
+}
+
+.main-overview-games a {
+    background-color: transparent;
+}
+
+.main-overview-software {
+    height: 512px;
+    width: 100%;
+    background-image: url(../img/games.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-overview-software h1 {
+    padding-top: 196px;
+    color: white;
+    text-shadow: 2px 2px 2px darkgray;
+    background-color: transparent;
+}
+
+.main-overview-software p {
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+    background-color: transparent;
+}
+
+.main-overview-software a {
+    background-color: transparent;
+}
+
+.btn-overview {
+    background-color: white;
+    width: 128px;
+    height: 48px;
+    border: white solid;
+    border-radius: 32px;
+}
+
+.btn-overview:hover {
+    text-decoration: underline;
+}
+
+/* GUIDE */
+
+.guide {
+    padding-top: 128px;
+}
+
+.guide h1 {
+    color: white;
+}
+
+.guide p {
+    color: darkgray;
+}
+
+.btn-guide {
+    background-color: white;
+    width: 256px;
+    height: 48px;
+    border: white solid;
+    border-radius: 32px;
+}
+
+.btn-guide:hover {
+    text-decoration: underline;
+}
+
+/* CONTACT */
+
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 128px;
+    color: white;
+    padding-bottom: 4px;
+}
+
+.contact h2 {
+    padding: 0;
+    margin: 0;
+    color: darkgray;
+    padding-bottom: 16px;
+}
+
+.contact p {
+    color: darkgray;
+}
+
+.contact p a {
+    color: gray;
+    text-decoration: none;
+}
+
+.contact p a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #6A5ACD;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    background-color: #6A5ACD;
+    color: white;
+}
